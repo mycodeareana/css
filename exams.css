@@ -1,0 +1,58 @@
+#exerciseanswers {
+ margin: 0;
+ padding: 0;
+}
+
+#exerciseanswers input {
+ margin-left: 20px;
+}
+
+#exerciseanswers li {
+ margin-bottom: 5px;
+ background-color: #E2E2E2;
+ list-style: none;
+ padding-top: 20px;
+}
+
+#exerciseanswers strong {
+ margin-left: 20px;
+}
+
+#exerciseanswers .answer {
+ font-weight: 700;
+ margin-left: 20px;
+ display: block;
+}
+
+#exerciseanswers li.correct .answer {
+ color: #0C0;
+}
+
+#exerciseanswers li.wrong .answer {
+ color: red;
+}
+
+#exerciseanswers li.correct input {
+ border: solid 1px #0C0;
+}
+
+#exerciseanswers li.wrong input {
+ border: solid 1px red;
+}
+
+#exerciseanswers li.normal input {
+ border: solid 1px #666;
+}
+
+#exerciseanswers .mcanswers {
+ background: #fff;
+ margin-top: 10px;
+}
+
+#exerciseanswers .answerexp {
+ display: none;
+}
+
+.chkanswer {
+ display: none;
+}
